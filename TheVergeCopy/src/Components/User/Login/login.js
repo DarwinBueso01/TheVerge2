@@ -3,36 +3,6 @@ import Navbar from '../../Navbar/Navbar';
 import '../../User/user.css';
 
 const Login = () => {
-    // const history = useHistory();
-    // const [password, setPassword] = useState("");
-    // const [email, setEmail] = useState("");
-
-    // const PostData = (event) => {
-    //     event.preventDefault()
-    //     fetch("/signin", {
-    //         method: "post",
-    //         headers: {
-    //             "Content-Type": "application/json"
-    //         },
-    //         body: JSON.stringify({
-    //             password,
-    //             email
-    //         })
-    //     }).then(res => res.json())
-    //         // console.log(data)
-    //         .then(data => {
-    //             if (data.error) {
-    //                 console.log(data.error)
-    //             } else {
-    //                 localStorage.setItem("jwt", data.token)
-    //                 localStorage.setItem("user", JSON.stringify(data.user))
-    //                 history.push('/');
-    //             }
-    //         }).catch(err => {
-    //             console.log(err)
-    //         })
-    // }
-
     return (
         <React.Fragment>
             <Navbar page="loginPage" />
